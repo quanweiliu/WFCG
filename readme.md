@@ -14,5 +14,14 @@ This project is implemented with Pytorch and has been tested on version Pytorch 
 ## Citation
 Please kindly cite the papers if this code is useful and helpful for your research.
 
+Y. Dong, Q. Liu, B. Du and L. Zhang, "Weighted Feature Fusion of Convolutional Neural Network and Graph Attention Network for Hyperspectral Image Classification," in IEEE Transactions on Image Processing, vol. 31, pp. 1559-1572, 2022, doi: 10.1109/TIP.2022.3144017.
 
-Public full-text: https://www.researchgate.net/publication/358127328_Weighted_Feature_Fusion_of_Convolutional_Neural_Network_and_Graph_Attention_Network_for_Hyperspectral_Image_Classification
+@ARTICLE{9693311,
+  author={Dong, Yanni and Liu, Quanwei and Du, Bo and Zhang, Liangpei},
+  journal={IEEE Transactions on Image Processing}, 
+  title={Weighted Feature Fusion of Convolutional Neural Network and Graph Attention Network for Hyperspectral Image Classification}, 
+  year={2022},
+  volume={31},
+  number={},
+  pages={1559-1572},
+  doi={10.1109/TIP.2022.3144017}}
