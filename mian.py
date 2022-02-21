@@ -39,7 +39,6 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 superpixel_scale = 100
 dataset_name = "indian_" 
 path_model = r"E:\HSI_Classification\WFCG\model\\"
-path_result = r"E:\HSI_Classification\WFCG\result\\"
 path_data = None
 height, width, bands = data.shape  
 
