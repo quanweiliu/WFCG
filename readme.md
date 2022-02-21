@@ -16,6 +16,8 @@ Please kindly cite the papers if this code is useful and helpful for your resear
 
 Y. Dong, Q. Liu, B. Du and L. Zhang, "Weighted Feature Fusion of Convolutional Neural Network and Graph Attention Network for Hyperspectral Image Classification," in IEEE Transactions on Image Processing, vol. 31, pp. 1559-1572, 2022, doi: 10.1109/TIP.2022.3144017.
 
+
+```
 @ARTICLE{9693311,
   author={Dong, Yanni and Liu, Quanwei and Du, Bo and Zhang, Liangpei},
   journal={IEEE Transactions on Image Processing}, 
@@ -25,3 +27,4 @@ Y. Dong, Q. Liu, B. Du and L. Zhang, "Weighted Feature Fusion of Convolutional N
   number={},
   pages={1559-1572},
   doi={10.1109/TIP.2022.3144017}}
+```
