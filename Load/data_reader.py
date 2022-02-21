@@ -27,27 +27,27 @@ class DataReader():
 class PaviaURaw(DataReader):
     def __init__(self):
         super(PaviaURaw, self).__init__()
-        raw_data_package = sio.loadmat(r"E:\HSI_Classification\datasets\Pavia.mat")
+        raw_data_package = sio.loadmat(r"E:\HSI_Classification\WFCG\Datasets\Pavia.mat")
         self.data_cube = raw_data_package["paviaU"].astype(np.float32)
-        truth = sio.loadmat(r"E:\HSI_Classification\datasets\paviaU_gt.mat")
+        truth = sio.loadmat(r"E:\HSI_Classification\WFCG\Datasets\paviaU_gt.mat")
         self.g_truth = truth["groundT"].astype(np.float32)
 
 
 class IndianRaw(DataReader):
     def __init__(self):
         super(IndianRaw, self).__init__()
-        raw_data_package = sio.loadmat(r"E:\HSI_Classification\datasets\Indian_pines_corrected.mat")
+        raw_data_package = sio.loadmat(r"E:\HSI_Classification\WFCG\Datasets\Indian_pines_corrected.mat")
         self.data_cube = raw_data_package["data"].astype(np.float32)
-        truth = sio.loadmat(r"E:\HSI_Classification\datasets\Indian_pines_gt.mat")
+        truth = sio.loadmat(r"E:\HSI_Classification\WFCG\Datasets\Indian_pines_gt.mat")
         self.g_truth = truth["groundT"].astype(np.float32)
 
 
 class SalinasRaw(DataReader):
     def __init__(self):
         super(SalinasRaw, self).__init__()
-        raw_data_package = sio.loadmat(r"E:\HSI_Classification\datasets\Salinas_corrected.mat")
+        raw_data_package = sio.loadmat(r"E:\HSI_Classification\WFCG\Datasets\Salinas_corrected.mat")
         self.data_cube = raw_data_package["salinas_corrected"].astype(np.float32)
-        truth = sio.loadmat(r"E:\HSI_Classification\datasets\Salinas_gt.mat")
+        truth = sio.loadmat(r"E:\HSI_Classification\WFCG\Datasets\Salinas_gt.mat")
         self.g_truth = truth["salinas_gt"].astype(np.float32)
 
 
