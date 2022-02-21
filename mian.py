@@ -157,24 +157,3 @@ classification = classification_report(test_samples_gt_cpu[test_label_mask_cpu],
 kappa = cohen_kappa_score(test_samples_gt_cpu[test_label_mask_cpu], predict[test_label_mask_cpu]+1)
 print(classification)
 print("kappa", kappa)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,7 +1,7 @@
 main.ipynb
-model/model.pt
 __pycache__
 GNN/__pycache__
 Lord/__pycache__
 Datasets/Indian_pines_corrected.mat
 Datasets/Indian_pines_gt.mat
+model/model.pt
