@@ -1,4 +1,5 @@
 main.ipynb
+model/model.pt
 __pycache__
 GNN/__pycache__
 Lord/__pycache__
