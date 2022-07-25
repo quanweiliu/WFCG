@@ -21,8 +21,8 @@ def SegmentsLabelProcess(labels):
 
 
 class SLIC(object):
-    def __init__(self, HSI, labels, n_segments=1000, compactness=20, max_iter=20, sigma=0, min_size_factor=0.3,
-                 max_size_factor=2):
+    def __init__(self, HSI, labels, n_segments=1000, compactness=20, 
+                max_iter=20, sigma=0, min_size_factor=0.3, max_size_factor=2):
   
         self.n_segments = n_segments   # 分割数
         self.compactness = compactness
@@ -52,12 +52,12 @@ class SLIC(object):
         self.superpixel_count = superpixel_count
         # print("superpixel_count", superpixel_count)
         
-        ######################################显示超像素图片######################################
+        ###################################### 显示超像素图片 ######################################
         # out = mark_boundaries(img[:,:,[0,1,2]], segments)
         # plt.figure()
         # plt.imshow(out)
         # plt.show()
-        ######################################显示超像素图片######################################
+        ###################################### 显示超像素图片 ######################################
 
         segments = np.reshape(segments, [-1])           
         S = np.zeros([superpixel_count, d], dtype=np.float32)

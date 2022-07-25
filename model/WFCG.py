@@ -304,7 +304,7 @@ class GraphAttentionLayer(nn.Module):
     def __repr__(self):
         return self.__class__.__name__ + ' (' + str(self.in_features) + ' -> ' + str(self.out_features) + ')'
 
-
+# source from https://github.com/PetarV-/GAT
 class GAT(nn.Module):
     def __init__(self, nfeat, nhid, adj, nout, dropout, alpha, nheads):
         """Dense version of GAT."""

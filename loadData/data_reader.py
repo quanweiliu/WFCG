@@ -1,6 +1,5 @@
 import numpy as np
 import scipy.io as sio
-import os
 import spectral as spy
 import matplotlib.pyplot as plt
 from collections import Counter
@@ -17,7 +16,7 @@ class DataReader():
 
     @property
     def truth(self):
-        return self.g_truth
+        return self.g_truth.astype(np.int64)
 
     @property
     def normal_cube(self):
@@ -36,9 +35,9 @@ class PaviaURaw(DataReader):
 class IndianRaw(DataReader):
     def __init__(self):
         super(IndianRaw, self).__init__()
-        raw_data_package = sio.loadmat(r"E:\HSI_Classification\WFCG\Datasets\Indian_pines_corrected.mat")
+        raw_data_package = sio.loadmat(r"E:\HSI_Classification\ZZ_WFCG\datasets\Indian_pines_corrected.mat")
         self.data_cube = raw_data_package["data"].astype(np.float32)
-        truth = sio.loadmat(r"E:\HSI_Classification\WFCG\Datasets\Indian_pines_gt.mat")
+        truth = sio.loadmat(r"E:\HSI_Classification\ZZ_WFCG\datasets\Indian_pines_gt.mat")
         self.g_truth = truth["groundT"].astype(np.float32)
 
 

@@ -4,8 +4,8 @@ This example implements the paper in review [Weighted Feature Fusion of Convolut
 
 ## Run
 If you want to run this code, just put your data in the Datasets folder and change a few paths.
-- path 1: Load\data_reader.py -> data path
-- path 2: main.py -> path_model
+- path 1: datasets: Please put the corresponding hyperspectral data there.
+- path 2: loadData/data_reader.py: change datasets path.
 
 ## Installation
 This project is implemented with Pytorch and has been tested on version Pytorch 1.7, numpy                 1.21.4, matplotlib            3.3.3 and scikit-learn          0.23.2.
