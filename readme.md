@@ -7,6 +7,8 @@ If you want to run this code, just put your data in the Datasets folder and chan
 - path 1: datasets: Please put the corresponding hyperspectral data there.
 - path 2: loadData/data_reader.py: change datasets path.
 
+> python main.py -pc -pdi -sr
+
 ## Installation
 This project is implemented with Pytorch and has been tested on version Pytorch 1.7, numpy                 1.21.4, matplotlib            3.3.3 and scikit-learn          0.23.2.
 
