@@ -10,7 +10,11 @@ If you want to run this code, just put your data in the Datasets folder and chan
 > python main.py -pc -pdi -sr
 
 ## Installation
-This project is implemented with Pytorch and has been tested on version Pytorch 1.7, numpy                 1.21.4, matplotlib            3.3.3 and scikit-learn          0.23.2.
+This project is implemented with Pytorch and has been tested on version 
+- Pytorch               1.7, 
+- numpy                 1.21.4, 
+- matplotlib            3.3.3 
+- scikit-learn          0.23.2.
 
 
 ## Citation
