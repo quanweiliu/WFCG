@@ -1,6 +1,6 @@
 # Weighted Feature Fusion of Convolutional Neural Network and Graph Attention Network for Hyperspectral Image Classification
 
-This example implements the paper in review [Weighted Feature Fusion of Convolutional Neural Network and Graph Attention Network for Hyperspectral Image Classification]
+This example implements the paper [Weighted Feature Fusion of Convolutional Neural Network and Graph Attention Network for Hyperspectral Image Classification]
 
 ## Run
 If you want to run this code, just put your data in the Datasets folder and change a few paths.
